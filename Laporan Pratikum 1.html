@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Praktikum</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            text-align: center;
+        }
+        ol, ul {
+            line-height: 1.6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        .form-table {
+            width: 50%;
+            margin: 20px auto;
+        }
+        .form-table input {
+            width: 100%;
+            padding: 8px;
+        }
+        .submit-btn {
+            display: block;
+            width: 50%;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+        .media-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .media-container img, .media-container video, .media-container audio {
+            max-width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1 align="center">Portofolio Mahasiswa</h1>
+    </header>
+
+    <style>
+        img{
+            display: block;
+            margin: auto;
+        }
+    </style>
+
+
+    <section>
+        <h2 align="center">Foto Diri Saya</h2>
+        <img src="c:\Users\Oming\OneDrive - ITPLN\Pictures\Saved Pictures\img.png.jpg" alt="Foto Diri Saya" width="300">
+    </section>
+
+    <video
+    width="400" height="400"
+    autoplay
+    controls
+    loop
+    >
+
+       <source src="c:\Users\Oming\Videos\Captures\20230123-151133-876 copy.mov">
+    </video>
+
+    <section>
+        <h2 align="center">Tentang Saya</h2>
+        <p align="center">Halo, nama saya Dewa Nyoman Prastisthaya Mahadana. Saya adalah mahasiswa S1 Teknik Informatika dari Institut Teknologi PLN</p>
+        <p align="center">Saya asli dari Bali, Lahir pada 4 Januari 2005, Kelulusan 2023 dari SMAK Santo Yoseph Denpasar</p>
+        <p align="center">Saya juga memiliki hobby berolahraga seperti Badminton, Basket, Golf. Cita-cita saya menjadi pengusaha sukses</p>
+    </section>
+
+    <style>
+        video{
+            display: block;
+            margin: auto;
+        }
+    </style>
+
+    <footer>
+        <p align="center">Hubungi saya di: <a href="dewaditya2005@gmail.com">dewaditya2005@gmail.com</a></p>
+    </footer>
+
+    <!-- Form Data Diri -->
+    <h2>Data Diri</h2>
+    <form action="contoh.html" method="GET">
+        <table class="form-table">
+            <tr>
+                <td><label for="nama">Nama:</label></td>
+                <td><input type="text" id="nama" name="nama" required></td>
+            </tr>
+            <tr>
+                <td><label for="nim">NIM:</label></td>
+                <td><input type="text" id="nim" name="nim" required></td>
+            </tr>
+            <tr>
+                <td><label for="tanggal">Tanggal:</label></td>
+                <td><input type="date" id="tanggal" name="tanggal" required></td>
+            </tr>
+        </table>
+
+        <!-- Tombol Submit -->
+        <button type="submit" class="submit-btn">Submit</button>
+    </form>
+    
+</body>
+</html>
